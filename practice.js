@@ -125,7 +125,23 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
   and the second item in the array being the odds array (all the odd values from numbersArray).
 */
 
-//Code Here
+let divider = numbersArray => {
+  let numberEven = []
+  let numberOdd = []
+  for(let i = 0; i <= numbersArray; i++){
+    switch(numbersArray){
+      case i % 2 === 0:
+       console.log(numbersEven.unshift(i));
+      default:
+        numbersOdd.pop(i);
+     
+    }
+
+  }
+  return numberOdd
+ 
+}
+console.log(divider([1, 4, 6, 4 ,3, 7,]))
 
 
 
